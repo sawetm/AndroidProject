@@ -21,6 +21,10 @@
         <activity
             android:name=".DisManuActivity"
             android:label="@string/title_activity_dis_manu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisWYHActivity"
+            android:label="@string/title_activity_dis_wyh"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

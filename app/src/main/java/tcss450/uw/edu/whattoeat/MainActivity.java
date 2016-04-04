@@ -34,10 +34,22 @@ public class MainActivity extends AppCompatActivity {
         byNamuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),DisManuActivity.class));
+                startActivity(new Intent(getApplicationContext(), DisManuActivity.class));
             }
 
         });
+
+        Button byWhatYouHaveButton = (Button)findViewById(R.id.pickButton);
+        assert byWhatYouHaveButton != null;
+        byWhatYouHaveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), DisWYHActivity.class));
+            }
+
+        });
+
+
 
     }
 
