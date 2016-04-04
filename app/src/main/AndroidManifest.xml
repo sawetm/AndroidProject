@@ -29,6 +29,10 @@
         <activity
             android:name=".RanPickActivity"
             android:label="@string/title_activity_ran_pick"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testing"
+            android:label="@string/title_activity_testing"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

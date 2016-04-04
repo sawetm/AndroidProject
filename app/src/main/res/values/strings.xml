@@ -4,4 +4,5 @@
     <string name="title_activity_dis_manu">Manu</string>
     <string name="title_activity_dis_wyh">Pick What You Have</string>
     <string name="title_activity_ran_pick">RanPickActivity</string>
+    <string name="title_activity_testing">testing</string>
 </resources>
