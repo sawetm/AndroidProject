@@ -25,6 +25,10 @@
         <activity
             android:name=".DisWYHActivity"
             android:label="@string/title_activity_dis_wyh"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RanPickActivity"
+            android:label="@string/title_activity_ran_pick"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

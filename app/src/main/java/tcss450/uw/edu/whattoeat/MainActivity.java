@@ -48,7 +48,15 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        Button ranButton = (Button)findViewById(R.id.randomButton);
+        assert ranButton != null;
+        ranButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), RanPickActivity.class));
+            }
 
+        });
 
 
     }
