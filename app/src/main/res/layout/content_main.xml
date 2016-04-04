@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pick Your Choose"
+        android:text="Pick Your Chooice"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/pickTextView"
@@ -34,20 +34,50 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="By What You Have"
+        android:text="By You Have"
         android:id="@+id/pickButton"
-        android:layout_below="@+id/manuButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Random Pick"
+        android:text="By Random"
         android:id="@+id/randomButton"
-        android:layout_marginTop="63dp"
-        android:layout_below="@+id/pickButton"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="List All the Manu"
+        android:id="@+id/textView"
+        android:layout_below="@+id/pickTextView"
         android:layout_centerHorizontal="true"
         android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search From You Have"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:layout_above="@+id/pickButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Random Pick Manu"
+        android:id="@+id/textView4"
+        android:textSize="30dp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/pickButton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
