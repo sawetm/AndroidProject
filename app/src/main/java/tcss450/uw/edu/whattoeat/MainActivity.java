@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-
+        // hello testing
         Button byNamuButton = (Button)findViewById(R.id.manuButton);
         assert byNamuButton != null;
         byNamuButton.setOnClickListener(new View.OnClickListener() {
